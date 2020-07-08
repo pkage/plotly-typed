@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import TypedPlot from './TypedPlot';
 import RegularPlot from './RegularPlot';
 import FPSStats from 'react-fps-stats';
-import './App.css';
 
 function App() {
     const [pointCount, setPointCount] = useState(100);
@@ -44,6 +43,8 @@ function App() {
             </div>
 
             <FPSStats />
+
+            <a href="https://github.com/pkage/plotly-typed">view source</a>
         </div>
     );
 }
